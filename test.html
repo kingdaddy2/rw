@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    #container {
+  overflow: hidden;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+#container .inner {
+  width: 500px;
+}
+
+#right-div {
+  float: right;
+  width: 200px;
+  background: green;
+}
+
+#main {
+  width: 300px;
+  height: 200px;
+  background: red;
+}
+@media all and (max-width: 1000px) {
+    .floated_div { display: none; }
+}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+    <div class="inner">
+
+        <div id="right-div">
+            <ul>
+                <li>Option 1</li>
+                <li>Option 2</li>
+                <li>Option 3</li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <p>Some content goes here!</p>
+        </div>
+
+    </div><!-- .inner end -->      
+</div><!-- #container end -->
+  </body>
+</html>
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "400px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  
+  <style>
+    @media screen and (max-width: 1200px) {
+      .container nav{
+        display: none;
+      }
+      .side-nav-click {
+        display: contents;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      .container nav{
+        display: none;
+      }
+    }
+  </style>

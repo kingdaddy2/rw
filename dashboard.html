@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="dashboard">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/390cf03f3b.js"></script>
+    <title>Dashboard</title> 
+  </head>
+  <body>
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="/">
+            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+            <span class="title">الرئيسية</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+            <span class="title">بادئة البوت</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-users" aria-hidden="true"></i></span>
+            <span class="title">الأوامر العامة</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-wrench" aria-hidden="true"></i></span>
+            <span class="title">الأوامر الإدارية</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-music" aria-hidden="true"></i></span>
+            <span class="title">أوامر الموسيقى</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
+            <span class="title">الرد التلقائي</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-server" aria-hidden="true"></i></span>
+            <span class="title">الرولات التلقائية</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-star" aria-hidden="true"></i></span>
+            <span class="title">البرميوم</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+            <span class="title">تسجيل الخروج</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="toggle" onclick="toggleMenu()"></div>
+      <script class="text/javascript">
+      function toggleMenu(){
+        let navigation = document.querySelector('.navigation')
+        let toggle = document.querySelector('.toggle')
+        navigation.classList.toggle('active');
+        toggle.classList.toggle('active');
+      }
+      </script>
+  </body>
+</html> 

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<title>Rhyno Bot | Moderation Commands</title>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/680323944808710306/847505087005982730/unknown.png" />
+<link rel="stylesheet" href="/style.css" />
+<script src="https://use.fontawesome.com/390cf03f3b.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
+
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "400px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  
+  <style>
+    @media screen and (max-width: 1200px) {
+      .container nav{
+        display: none;
+      }
+      .container ul li {
+        font-size: 20px;
+      }
+      .container li:hover {
+        font-size: 23px;
+        padding: 40px;
+      }
+      .container .commands-title {
+        font-size: 250%;
+      }
+      .side-nav-click {
+        display: contents;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      .container nav{
+        display: none;
+      }
+      .container ul li {
+        font-size: 10px;
+      }
+      .container li:hover {
+        font-size: 18px;
+        padding: 25px;
+      }
+      .container .commands-title {
+        font-size: 300%;
+        margin-top: 10px;
+      }
+    }
+  </style>
+  </head>
+<body>
+    <div class="fixed-header">
+      
+        <div class="container">
+            <nav>
+              <img class="nav-icon" src="https://cdn.discordapp.com/attachments/680323944808710306/847505087005982730/unknown.png">
+                <a class= "a-right" href="/">الرئيسية</a>
+                <a class= "a-right" href="https://discord.gg/PD9fH3W448">الدعم الفني</a>
+                <a class= "a-right" href="/commands">الأوامر</a>
+                <a class= "a-left" href="#">تسجيل الدخول</a>
+            </nav>
+          <div class="side-nav-click">
+            
+          
+          <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/">الرئيسية</a>
+  <a href="https://discord.gg/PD9fH3W448">الدعم الفني</a>
+  <a href="/commands">الأوامر</a>
+  <a href="#">تسجيل الدخول</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="container">
+      
+       <div class="commands-title">
+        <h1>
+         راينو بوت
+        </h1>
+        <p>
+          الأوامر الادارية
+        </p>
+      </div>
+      
+      <div class="public-commands-list">
+       <ul>
+         <li>
+         <p>$clear<a>لمسح رسائل من الروم</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$ban<a>لحظر عضو من السيرفر</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$unban<a>لفك حظر عضو من السيرفر</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$kick<a>لطرد عضو من السيرفر</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$warn<a>لتحذير شخص ما</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$removewarn<a>لإزالة التحذير من شخص ما</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$warns<a>لاظهار التحذيرات</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$mute<a>لاسكات عضو من الشات</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$unmute<a>لفك اسكات عضو</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$role [user] [role]<a>لاضافة او ازالة رتبة من شخص ما</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$lock<a>لاغلاق روم معين</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$unlock<a>لفتح روم معين</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$hide<a>لاخفاء روم معين</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$show<a>لاظهار روم للجميع</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$nick [user] [name]<a>لتغيير اسم شخص ما في السيرفر</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+           <p>$add-emoji<a>لإضافة إيموجي واحد الى السيرفر</a></p>
+           
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$add-emojis<a>لإضافة أكثر من إيموجي</a></p>
+         </li>
+        </ul>
+        <ul>
+         <li>
+         <p>$bots<a>لعرض قائمة بالبوتات الموجوده في السيرفر</a></p>
+         </li>
+        </ul>
+      </div>
+      
+    </div>    
+  
+  
+  
+  
+  
+    
+</body>
+  
+  
+</html>
+
